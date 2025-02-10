@@ -1,5 +1,7 @@
 # Tournament Manager
 
+[Portuguese Version](README-PT.md)
+
 ## Description
 
 This project is a tournament management system that allows the administration of editions, phases, matches, players, teams, and tickets. It was developed as part of the **Database Management** course for the academic year 2024/25.
