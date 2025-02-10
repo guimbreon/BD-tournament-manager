@@ -1,51 +1,50 @@
 # Tournament Manager
 
-## Descrição
+## Description
 
-Este projeto é um sistema de gestão de torneios, permitindo administrar edições, fases, encontros, jogadores, equipas e bilhetes. Ele foi desenvolvido como parte da disciplina de **Bases de Dados** no ano letivo 2024/25.
+This project is a tournament management system that allows the administration of editions, phases, matches, players, teams, and tickets. It was developed as part of the **Database Management** course for the academic year 2024/25.
 
-## Funcionalidades
+## Features
 
-- Criar e gerir torneios e suas edições.
-- Controlar fases e encontros em arenas virtuais.
-- Associar jogadores a equipas e definir papéis.
-- Gerir bilhetes para encontros presenciais e online.
-- Permitir recomendações entre espectadores.
-- Acumular e controlar créditos de espectadores.
+- Create and manage tournaments and their editions.
+- Control phases and matches in virtual arenas.
+- Associate players with teams and define roles.
+- Manage tickets for in-person and online matches.
+- Enable recommendations among spectators.
+- Accumulate and track spectator credits.
 
-## Requisitos
+## Requirements
 
-- **Linguagem**: SQL (para a base de dados)
-- **SGDB**: PostgreSQL / MySQL (conforme necessidade)
-- **Dependências**: Nenhuma até o momento
+- **Language**: SQL (for the database)
+- **DBMS**: PostgreSQL / MySQL / phpAdmin (as needed)
+- **Dependencies**: None at the moment
 
-## Estrutura da Base de Dados
+## Database Structure
 
-A base de dados segue as seguintes regras de integridade:
+The database follows the following integrity rules:
 
-- Um torneio deve possuir pelo menos uma edição.
-- Cada edição pode conter vários jogos e fases.
-- Jogadores podem estar associados a diferentes equipas ao longo do tempo.
-- Cada encontro ocorre numa arena virtual ou plataforma online.
-- Os espectadores podem adquirir bilhetes e recomendar outros utilizadores.
+- A tournament must have at least one edition.
+- Each edition can contain multiple games and phases.
+- Players can be associated with different teams over time.
+- Each match takes place in a virtual arena or an online platform.
+- Spectators can purchase tickets and recommend other users.
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/guimbreon/BD-tournament-manager.git
    ```
-2. Importe o esquema da base de dados:
+2. Import the database schema:
    ```sql
    SOURCE BD-2425-E2_bd013_TP12.sql;
    ```
-3. Configure o SGDB conforme os requisitos do projeto.
+3. Configure the DBMS according to the project requirements.
 
-## Autores
+## Authors
 
-- **Guilherme Soares** - Desenvolvimento e modelagem da base de dados.
+- **Guilherme Soares** - Database development and modeling.
 
-## Licença
+## License
 
-Este projeto é de caráter acadêmico e não possui uma licença específica. Caso deseje utilizá-lo, entre em contato com o autor.
-
+This project is academic in nature and does not have a specific license. If you wish to use it, please contact the author.
