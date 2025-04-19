@@ -1,6 +1,6 @@
 # Tournament Manager
 
-[English Version](README.md)
+This README is also available in English. [Click here](README.md)
 
 ## Descrição
 
